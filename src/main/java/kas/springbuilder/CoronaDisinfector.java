@@ -18,9 +18,6 @@
  */
 package kas.springbuilder;
 
-/**
- * A typical simple backing bean, that is backed to <code>helloworld.jsp</code>
- */
 public class CoronaDisinfector {
 
     private Announcer announcer = ObjectFactory.getInstance().createObject(Announcer.class);
