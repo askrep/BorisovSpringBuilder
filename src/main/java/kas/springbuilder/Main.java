@@ -1,7 +1,13 @@
 package kas.springbuilder;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
-        new CoronaDisinfector().start(new Room());
+        //CoronaDisinfector coronaDisinfector = ObjectFactory.getInstance().createObject(CoronaDisinfector.class);
+        ApplicationContext context = Application.run("kas.springbuilder", new HashMap<>(Map.of(Policeman.class, PolicemanImpl.class)));
+        CoronaDisinfector disinfector = context.getObject(CoronaDisinfector.class);
+        disinfector.start(new Room());
     }
 }

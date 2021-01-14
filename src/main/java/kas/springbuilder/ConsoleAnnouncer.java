@@ -1,8 +1,9 @@
 package kas.springbuilder;
 
 public class ConsoleAnnouncer implements Announcer {
+    @InjectByType
+    private Recommendator recommendator;
 
-    private Recommendator recommendator = ObjectFactory.getInstance().createObject(Recommendator.class);
     @Override
     public void announce(String s) {
         System.out.println(s);
