@@ -1,5 +1,7 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.Policeman;
+
 import java.util.HashMap;
 import java.util.Map;
 

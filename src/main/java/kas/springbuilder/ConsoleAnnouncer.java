@@ -1,5 +1,9 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.Announcer;
+import kas.springbuilder.interfaces.InjectByType;
+import kas.springbuilder.interfaces.Recommendator;
+
 public class ConsoleAnnouncer implements Announcer {
     @InjectByType
     private Recommendator recommendator;

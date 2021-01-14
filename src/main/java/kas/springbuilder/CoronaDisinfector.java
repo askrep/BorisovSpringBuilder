@@ -18,6 +18,11 @@
  */
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.Announcer;
+import kas.springbuilder.interfaces.InjectByType;
+import kas.springbuilder.interfaces.Policeman;
+
+@Deprecated
 public class CoronaDisinfector {
 
     @InjectByType

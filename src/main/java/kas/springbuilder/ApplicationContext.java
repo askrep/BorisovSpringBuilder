@@ -1,5 +1,7 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.Config;
+import kas.springbuilder.interfaces.Singleton;
 import lombok.Getter;
 import lombok.Setter;
 

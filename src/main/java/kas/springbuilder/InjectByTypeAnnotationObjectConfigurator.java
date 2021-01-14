@@ -1,5 +1,7 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.InjectByType;
+import kas.springbuilder.interfaces.ObjectConfigurator;
 import lombok.SneakyThrows;
 
 import java.lang.reflect.Field;

@@ -1,5 +1,6 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.Config;
 import lombok.Getter;
 import org.reflections.Reflections;
 

@@ -1,4 +1,4 @@
-package kas.springbuilder;
+package kas.springbuilder.interfaces;
 
 public interface Policeman {
     void makePeopleLeaveRoom();

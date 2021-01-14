@@ -1,6 +1,11 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.InjectProperty;
+import kas.springbuilder.interfaces.Recommendator;
+import kas.springbuilder.interfaces.Singleton;
+
 @Singleton
+@Deprecated
 public class RecommendatorImpl implements Recommendator {
     @InjectProperty("whisky")
     private String alcohol;

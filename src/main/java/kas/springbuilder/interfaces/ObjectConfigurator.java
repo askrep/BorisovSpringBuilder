@@ -1,4 +1,6 @@
-package kas.springbuilder;
+package kas.springbuilder.interfaces;
+
+import kas.springbuilder.ApplicationContext;
 
 public interface ObjectConfigurator {
 

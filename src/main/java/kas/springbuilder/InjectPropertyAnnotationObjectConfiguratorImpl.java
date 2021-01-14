@@ -1,5 +1,7 @@
 package kas.springbuilder;
 
+import kas.springbuilder.interfaces.InjectProperty;
+import kas.springbuilder.interfaces.ObjectConfigurator;
 import lombok.SneakyThrows;
 
 import java.io.BufferedReader;

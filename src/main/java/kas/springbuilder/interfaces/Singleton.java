@@ -1,6 +1,5 @@
-package kas.springbuilder;
+package kas.springbuilder.interfaces;
 
-import java.lang.annotation.Annotation;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
